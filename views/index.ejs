@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Scrat-react 脚手架</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="semantic/semantic.min.css">
+    <link rel="stylesheet" href="global.css">
+    <!-- Data Tables -->
+    <link href="plugins/css/dataTables/jquery.dataTables.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--<script>-->
+        <!--// 启动时添加夜间模式效果, 放在此处是为了尽快渲染背景颜色，避免出现闪烁-->
+        <!--if (localStorage.getItem('dark:toggle') == 'on') {-->
+            <!--document.body.className = 'dark';-->
+        <!--}-->
+    <!--</script>-->
+    <div id="wrapper"></div>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="react-with-addons.js"></script>
+    <script src="semantic/semantic.min.js"></script>
+    <script src="scrat.js"></script>
+    <script src="page.js"></script>
+    <script>
+        require.config(__FRAMEWORK_CONFIG__);
+        require.define('config', function (require, exprots, module) {
+            module.exports = JSON.parse(<%- config %>);
+        });
+        $(function () {
+            require.async('boot', function (boot) {
+                boot();
+            })
+        });
+    </script>
+</body>
+</html>

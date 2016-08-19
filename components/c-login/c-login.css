@@ -1,0 +1,10 @@
+.c-login {border-radius: 5px;overflow: hidden;box-shadow: rgba(0,0,0,0.3) 0 0 25px 0;}
+    .c-login .header {text-align: center;line-height: 42px;color: #FFF;
+        font-family: "Helvetica", "proxima-nova", "Raleway";}
+    .c-login .ui.segment {border-radius: 0px;margin-top: 0;padding: 1.8em 1.2em;
+        background-color: rgba(255,255,255,0.7);
+        /*background-color: rgba(0,0,0,0.01);*/
+    }
+    .c-login .ui.button {width: 150px;}
+
+.dark .c-login .ui.segment {background-color: rgba(0,0,0,0.3)}

@@ -1,0 +1,7 @@
+<div class="p-dash page">
+    <div class="p-dash-head">
+        <Navi></Navi>
+    </div>
+    <h2 class="ui center aligned icon header"><i class="circular users icon"></i> Dash </h2>
+
+</div>

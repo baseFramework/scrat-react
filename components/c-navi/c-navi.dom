@@ -1,0 +1,9 @@
+<div class="c-navi">
+    <div class="ui inverted segment c-navi-wrap">
+        <div class="ui inverted secondary pointing menu">
+            <a class="item active">Home </a>
+            <a class="item">Messages </a>
+            <a class="item">Friends </a>
+        </div>
+    </div>
+</div>

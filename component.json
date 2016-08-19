@@ -1,0 +1,6 @@
+{
+  "name": "napi-comment",
+  "dependencies": {
+    "jashkenas/underscore": "1.6.0"
+  }
+}

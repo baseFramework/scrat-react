@@ -1,0 +1,6 @@
+<div class="p-login page">
+    <div class="p-login-wrap">
+        <Login></Login>
+    </div>
+
+</div>
